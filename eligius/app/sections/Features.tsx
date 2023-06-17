@@ -5,7 +5,7 @@ export default function Features() {
                 <img className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="Create twitter content with AI copilot." />
                 <img className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="Create twitter content with AI copilot." />
                 <div className="mt-4 md:mt-0">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">AI-Powered Content Generation</h2>
+                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">AI-Powered Content creation</h2>
                     <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Harness the power of artificial intelligence to automatically generate compelling, on-brand tweets. Our AI model has been trained on vast amounts of social media content, enabling it to understand trends, language nuances, and audience preferences. Say goodbye to writer's block and hello to fresh, high-quality tweets!</p>
                     <a href="#" className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
                         Join the waitlist
