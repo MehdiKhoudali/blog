@@ -1,29 +1,47 @@
 export default function Features() {
+
+    const Check = <svg className="h-8 p-2 bg-gray-300 rounded-full w-8 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M4 13L9 18L20 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+
     return (
-        <section className="bg-white dark:bg-gray-900">
-            <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                <img className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="Create twitter content with AI copilot." />
-                <img className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="Create twitter content with AI copilot." />
-                <div className="mt-4 md:mt-0">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">AI-Powered Content creation</h2>
-                    <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Harness the power of artificial intelligence to automatically generate compelling, on-brand tweets. Our AI model has been trained on vast amounts of social media content, enabling it to understand trends, language nuances, and audience preferences. Say goodbye to writer's block and hello to fresh, high-quality tweets!</p>
-                    <a href="#" className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
-                        Join the waitlist
-                        <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                    </a>
+        <section className="flex text-center p-4 md:p-8 md:text-left items-center flex-col gap-8">
+            <h2 className="font-bold text-5xl text-center p-4 md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#db2777] to-[#e879f9]">A no-code blog website builder</h2>
+            <h3 className="text-xl text-center text-gray-500">Eligius allows you to create moderne, advanced, SEO-friendly & optimised blog websites<br />using Notion as your content management system</h3>
+            <div className="my-8 flex flex-col md:flex-row justify-center md:justify-between items-center w-full gap-8">
+                <div className="w-full md:w-[50%] flex text-left flex-col gap-5 md:px-8">
+                    <h3 className="text-gray-800 font-bold text-4xl">Unlimited blogs with Eligius</h3>
+                    <p className="text-gray-600 font-regular text-lg">Create as many blogs as you'd like & get advanced analytics and moderne blog websites designs.</p>
+                    <ul className="flex flex-col gap-4">
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Modern designs</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Advanced analytics</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Unlimited blog websites</li>
+                    </ul>
+                </div>
+                <div className="w-full md:w-[50%] h-[400px] rounded-md bg-gray-700"></div>
+            </div>
+            <div className="my-8 flex flex-col md:flex-row justify-center md:justify-between items-center w-full gap-8">
+                <div className="w-full md:w-[50%] h-[400px] rounded-md bg-gray-700"></div>
+                <div className="w-full md:w-[50%] flex text-left flex-col gap-5 md:px-8">
+                    <h3 className="text-gray-800 font-bold text-4xl">Manage and contact your blog visiors.</h3>
+                    <p className="text-gray-600 font-regular text-lg">Get integrated email collecting forms.</p>
+                    <ul className="flex flex-col gap-4">
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Get emails from your users</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Get your visitors emails on your dashboard</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Export different emails</li>
+                    </ul>
                 </div>
             </div>
-            <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                <div className="mt-4 md:mt-0">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Optimized Hashtags and Keywords</h2>
-                    <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Maximize your tweet's reach with our smart hashtag and keyword suggestions. Our AI analyzes your content and suggests relevant and trending hashtags, ensuring your tweets are discoverable by a wider audience. Boost your visibility and engagement effortlessly!</p>
-                    <a href="#" className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
-                        Join the waitlist
-                        <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                    </a>
+            <div className="my-8 flex flex-col md:flex-row justify-center md:justify-between items-center w-full gap-8">
+                <div className="w-full md:w-[50%] flex text-left flex-col gap-5 md:px-8">
+                    <h3 className="text-gray-800 font-bold text-4xl">Hight performances & Analytics</h3>
+                    <p className="text-gray-600 font-regular text-lg">Focus on yoru imagination, writing & your content, we handle the performances and the SEO.</p>
+                    <ul className="flex flex-col gap-4">
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Articles & posts structured schemas</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Control SEO settings.</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Advanced analytics for your blogs.</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Readers informations.</li>
+                    </ul>
                 </div>
-                <img className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="Create twitter content with AI copilot." />
-                <img className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="Create twitter content with AI copilot." />
+                <div className="w-full md:w-[50%] h-[400px] rounded-md bg-gray-700"></div>
             </div>
         </section>
     )
