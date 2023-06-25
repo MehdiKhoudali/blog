@@ -1,11 +1,13 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Lobster } from 'next/font/google'
+
+import Head from "next/head"
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'EligiusAI',
-  description: 'Create twitter content with an AI trained with social media content.',
+  title: 'Eligius',
+  description: 'Track the performances of your software team with leaderboards.',
 }
 
 export default function RootLayout({

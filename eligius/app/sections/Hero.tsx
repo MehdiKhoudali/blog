@@ -2,16 +2,17 @@ import Image from "next/image";
 
 import Banner from '../assets/banner.png';
 
+import { FaAngleRight, FaGithub } from "react-icons/fa";
+
 export default function Hero() {
     return (
-        <section className="text-center p-8 flex flex-col gap-12">
-            <h1 className="font-bold text-5xl text-center md:text-7xl text-gra-800">Notion to blog in seconds</h1>
-            <p className="text-gray-500 font-medium text-lg text-center">Create SEO-friendly blog websites for your content using Notion as a CMS,<br />focus on writing, we handle everything, from design to code.</p>
-            <div className="flex flex-col gap-8 md:gap-4 md:flex-row justify-center">
-                <button className="bg-gray-800 hover:bg-gray-700 md:px-12 py-4 rounded-lg text-white"><a className="font-bold text-md">Join the waitlist</a></button>
-                <button className="bg-transparent border border-gray-700 md:px-12 py-4 rounded-lg text-gray-700"><a className="font-bold text-md">Book a call with us</a></button>
+        <section className="text-center px-4 py-24 flex flex-col justify-center gap-5 md:gap-8">
+            <h1 id="hero_h1" className="font-bold text-4xl text-center md:text-7xl text-gray-800">Track <span className="text-[#8357C6]">performances of your <br /> software team</span></h1>
+            <p className="text-gray-500 font-medium text-lg text-center">Visualize your software development teams performances and actions just by linkeding your Github account.</p>
+            <div className="flex flex-col gap-2 md:gap-4 md:flex-row justify-center">
+                <button className="bg-[#8357C6] hover:bg-[#6945A0] md:px-12 py-4 rounded-full text-white flex justify-center gap-2 hover:gap-4 items-center duration-100"><a className="font-bold text-md">Join the waitlist</a><FaAngleRight /></button>
+                <button className="bg-transparent border border-[#8357C6] md:px-12 py-4 rounded-full text-[#8357C6] flex justify-center gap-2 hover:gap-4 items-center duration-100"><a className="font-bold text-md">Contact sales</a><FaAngleRight /></button>
             </div>
-            <Image className="p-0 md:p-24 rounded-md" src={Banner} />
         </section>
     )
 }
