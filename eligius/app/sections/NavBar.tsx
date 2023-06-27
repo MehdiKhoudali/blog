@@ -1,15 +1,12 @@
 "use client"
 
 import { useState } from "react"
-
 import Image from "next/image"
 
 import Logo from '../assets/eligius_logo.png';
 
 export default function NavBar() {
-
     const [Open, setOpen] = useState(false)
-
     return (
         <section className="w-full items-center top-0 left-0">
             <nav className="flex justify-between px-4 md:px-12 py-2 md:py-4 items-center">

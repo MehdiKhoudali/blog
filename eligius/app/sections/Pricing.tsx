@@ -11,26 +11,27 @@ export default function Pricing() {
             <div className="flex flex-col md:flex-row justify-center px-0 md:px-16 gap-4">
                 <div className="text-left p-0 m-4 md:p-8 flex flex-col gap-5 rounded-md w-full md:w-50 hover:p-2 md:hover:p-12 duration-200">
                     <h3 className="font-bold text-2xl">Premium plan</h3>
-                    <p className="text-gray-600">Perfect for entrepreneurs and content creators</p>
+                    <p className="text-gray-600">Perfect for small startups and individuals</p>
+                    <p className="text-gray-600 font-bold text-xl">75$/lifetime</p>
+                    <button className="bg-[#8357C6] w-full hover:bg-gray-700 md:px-12 py-4 rounded-full text-white flex justify-center gap-1 hover:gap-2 items-center duration-100"><a className="font-bold text-md">Join the lifetime deal</a><FaAngleRight /></button>
+                    <hr className="bg-gray-700 h-[2px]" />
+                    <ul className="flex flex-col text-left gap-4">
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}1 github account</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Dashboard Overview</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Leaderboards</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Collaboration Insights</li>
+                    </ul>
+                </div>
+                <div className="text-left p-0 m-4 md:p-8 flex flex-col gap-5 rounded-md w-full md:w-50 hover:p-2 md:hover:p-12 duration-200">
+                    <h3 className="font-bold text-2xl">Premium plan</h3>
+                    <p className="text-gray-600">Perfect big startups</p>
                     <p className="text-gray-600 font-bold text-xl">59$/lifetime</p>
                     <button className="bg-[#8357C6] w-full hover:bg-gray-700 md:px-12 py-4 rounded-full text-white flex justify-center gap-1 hover:gap-2 items-center duration-100"><a className="font-bold text-md">Join the lifetime deal</a><FaAngleRight /></button>
                     <hr className="bg-gray-700 h-[2px]" />
                     <ul className="flex flex-col text-left gap-4">
-                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Unlimited blogs</li>
-                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Email forms</li>
-                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}SEO optimisation and Analytics</li>
-                    </ul>
-                </div>
-                <div className="text-left p-0 m-4 md:p-8 flex flex-col gap-5 rounded-md w-full md:w-50 hover:p-2 md:hover:p-12 duration-200">
-                    <h3 className="font-bold text-2xl">Entreprise plan</h3>
-                    <p className="text-gray-600">Perfect for entreprises and agencies</p>
-                    <p className="text-gray-600 font-bold text-xl">Custom/lifetime</p>
-                    <button className="bg-[#8357C6] w-full hover:bg-gray-700 md:px-12 py-4 rounded-full text-white flex justify-center gap-1 hover:gap-2 items-center duration-100"><a className="font-bold text-md">Contact sales</a><FaAngleRight /></button>
-                    <hr className="bg-gray-700 h-[2px]" />
-                    <ul className="flex flex-col text-left gap-4">
-                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Custom support</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Custom account num</li>
                         <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Custom pricing</li>
-                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}All features</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Custom support</li>
                     </ul>
                 </div>
             </div>
