@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Banner from '../assets/banner.png';
+import JoinWaitlist from '../components/JoinWaitlist'
 
 import { FaAngleRight, FaGithub } from "react-icons/fa";
 
@@ -10,8 +10,8 @@ export default function Hero() {
             <h1 id="hero_h1" className="font-bold text-4xl text-center md:text-7xl text-gray-800">Track <span className="text-[#8357C6]">performances of your <br /> software team</span></h1>
             <p className="text-gray-500 font-medium text-lg text-center">Visualize your software development teams performances and actions just by linkeding your Github account.</p>
             <div className="flex flex-col gap-2 md:gap-4 md:flex-row justify-center">
-                <button className="bg-[#8357C6] hover:bg-[#6945A0] md:px-12 py-4 rounded-full text-white flex justify-center gap-2 hover:gap-4 items-center duration-100"><a className="font-bold text-md">Join the waitlist</a><FaAngleRight /></button>
-                <button className="bg-transparent border border-[#8357C6] md:px-12 py-4 rounded-full text-[#8357C6] flex justify-center gap-2 hover:gap-4 items-center duration-100"><a className="font-bold text-md">Contact sales</a><FaAngleRight /></button>
+                <JoinWaitlist />
+                <button className="bg-transparent border border-[#8357C6] md:px-12 py-4 rounded-full text-[#8357C6] flex justify-center gap-2 hover:scale-[0.9] items-center duration-100"><a className="font-bold text-md">Contact sales</a><FaAngleRight /></button>
             </div>
         </section>
     )

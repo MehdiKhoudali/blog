@@ -9,10 +9,10 @@ export default function Pricing() {
             <h2 className="font-bold text-3xl text-center md:text-6xl text-gray-800">Simple pricing, simple decision.</h2>
             <p className="text-gray-500 text-xl">Lifetime deal for joining while the product is being built</p>
             <div className="flex flex-col md:flex-row justify-center px-0 md:px-16 gap-4">
-                <div className="text-left p-0 m-4 md:p-8 flex flex-col gap-5 rounded-md w-full md:w-50 hover:p-2 md:hover:p-12 duration-200">
-                    <h3 className="font-bold text-2xl">Premium plan</h3>
+                <div className="text-left p-0 m-4 md:p-8 flex flex-col gap-5 rounded-md w-full md:w-50 hover:scale-[0.9] duration-200">
+                    <h3 className="font-bold text-2xl">Basic plan</h3>
                     <p className="text-gray-600">Perfect for small startups and individuals</p>
-                    <p className="text-gray-600 font-bold text-xl">75$/lifetime</p>
+                    <p className="text-gray-600 font-bold text-xl">49.99$/lifetime</p>
                     <button className="bg-[#8357C6] w-full hover:bg-gray-700 md:px-12 py-4 rounded-full text-white flex justify-center gap-1 hover:gap-2 items-center duration-100"><a className="font-bold text-md">Join the lifetime deal</a><FaAngleRight /></button>
                     <hr className="bg-gray-700 h-[2px]" />
                     <ul className="flex flex-col text-left gap-4">
@@ -22,10 +22,10 @@ export default function Pricing() {
                         <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Collaboration Insights</li>
                     </ul>
                 </div>
-                <div className="text-left p-0 m-4 md:p-8 flex flex-col gap-5 rounded-md w-full md:w-50 hover:p-2 md:hover:p-12 duration-200">
-                    <h3 className="font-bold text-2xl">Premium plan</h3>
-                    <p className="text-gray-600">Perfect big startups</p>
-                    <p className="text-gray-600 font-bold text-xl">59$/lifetime</p>
+                <div className="text-left p-0 m-4 md:p-8 flex flex-col gap-5 rounded-md w-full md:w-50 hover:scale-[0.9] duration-200">
+                    <h3 className="font-bold text-2xl">startup plan</h3>
+                    <p className="text-gray-600">Perfect for big startups and enterprises</p>
+                    <p className="text-gray-600 font-bold text-xl">Cutom/lifetime</p>
                     <button className="bg-[#8357C6] w-full hover:bg-gray-700 md:px-12 py-4 rounded-full text-white flex justify-center gap-1 hover:gap-2 items-center duration-100"><a className="font-bold text-md">Join the lifetime deal</a><FaAngleRight /></button>
                     <hr className="bg-gray-700 h-[2px]" />
                     <ul className="flex flex-col text-left gap-4">
