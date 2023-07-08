@@ -15,7 +15,6 @@ export default function Home() {
         <NavBar />
         <Hero />
         <Features />
-        <Pricing />
         <UseCases />
         <Cta />
         <Footer />
