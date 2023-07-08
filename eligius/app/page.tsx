@@ -3,6 +3,7 @@ import NavBar from "./sections/NavBar";
 import Features from "./sections/Features";
 import Pricing from "./sections/Pricing";
 import Cta from "./sections/Cta";
+import Footer from "./sections/Footer";
 
 import Head from "next/head"
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Features />
         <Pricing />
         <Cta />
+        <Footer />
       </main>
     </>
   )
