@@ -4,6 +4,7 @@ import Features from "./sections/Features";
 import Pricing from "./sections/Pricing";
 import Cta from "./sections/Cta";
 import Footer from "./sections/Footer";
+import UseCases from "./sections/UseCases";
 
 import Head from "next/head"
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Features />
         <Pricing />
+        <UseCases />
         <Cta />
         <Footer />
       </main>

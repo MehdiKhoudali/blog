@@ -17,7 +17,8 @@ export default function NavBar() {
                 <ul className='gap-4 md:gap-8 items-center hidden md:flex'>
                     <li><a href="#pricing" className="font-medium">Pricing</a></li>
                     <li><a href="#features" className="font-medium">Features</a></li>
-                    <li className="bg-[#8357C6] hover:scale-[1.1] font-medium text-white py-2 px-4 md:px-8 rounded-full hover:bg-[#6945A0] flex items-center justify-center gap-2 hover:text-white">
+                    <li><a href="#features" className="font-medium">Use Cases</a></li>
+                    <li className="duration-100 bg-[#8357C6] hover:scale-[0.9] font-medium text-white py-2 px-4 md:px-8 rounded-full hover:bg-[#6945A0] flex items-center justify-center gap-2 hover:text-white">
                         <a href="#">Join Waitlist</a><FaAngleRight />
                     </li>
                 </ul>
@@ -31,6 +32,7 @@ export default function NavBar() {
                 <ul className='gap-4 md:gap-8 items-center flex flex-col w-full'>
                     <li><a href="#pricing" className="w-full py-4 font-medium">Pricing</a></li>
                     <li><a href="#features" className="w-full py-4 font-medium">Features</a></li>
+                    <li><a href="#features" className="font-medium">Use Cases</a></li>
                     <li className="bg-[#8357C6] w-full font-medium text-white py-4 px-4 md:px-8 rounded-full hover:bg-[#6945A0] flex items-center justify-center hover:text-white"><a href="#">Join Waitlist</a><FaAngleRight /></li>
                 </ul>
             </div>

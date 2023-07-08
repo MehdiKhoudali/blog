@@ -1,17 +1,16 @@
 import Link from 'next/link';
 
 import JoinWaitlist from '../components/JoinWaitlist'
-import Logo from '../components/Logo';
 
 export default function Footer() {
   return (
     <footer className='flex flex-col justify-center w-full gap-4 px-4 py-4 pt-24 pb-8 text-center bg-white md:px-16 lg:py-16 md:justify-between xl:flex-row'>
       <div className='flex flex-col gap-8 text-left top-2'>
-        <Logo />
+        <h2 className='text-2xl text-black'>ELIGIUS</h2>
         <p className='text-gray-500'>
-          Create comments on any website and boost
+          Your content creator's landing page
           <br />
-          productivity and communication.
+          in seconds
         </p>
       </div>
       <div className='flex flex-col gap-8 text-left top-2'>
@@ -22,19 +21,19 @@ export default function Footer() {
           href='#'
           className='text-gray-500 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#5E63DE] hover:to-[#A22CFF]'
         >
-          Comments feature
+          Drag & Drop interface
         </Link>
         <Link
           href='#'
           className='text-gray-500 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#5E63DE] hover:to-[#A22CFF]'
         >
-          Team board feature
+          Data forms
         </Link>
         <Link
           href='#'
           className='text-gray-500 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#5E63DE] hover:to-[#A22CFF]'
         >
-          Discussions & messages
+          Content management system
         </Link>
       </div>
       <div className='flex flex-col gap-8 text-left top-2'>
@@ -54,7 +53,7 @@ export default function Footer() {
           Privacy policy
         </Link>
         <Link
-          href='mailto: tagucontact@gmail.com?subject=Contact Us'
+          href='mailto: mehdikhoudalpro@gmail.com?subject=Contact Us'
           className='text-gray-500 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#5E63DE] hover:to-[#A22CFF]'
         >
           Contact
@@ -63,8 +62,8 @@ export default function Footer() {
       <div className='flex flex-col gap-8 text-left'>
         <h3 className='text-2xl text-black'>Ready to scale?</h3>
         <p className='text-gray-500'>
-          Join TagU, create comments on any website <br /> and tag your team to
-          boost productivity and <br /> communication.
+          Join ELIGIUS, Build & scale your <br /> content creator's
+          landing page <br />
         </p>
         <JoinWaitlist />
       </div>
