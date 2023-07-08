@@ -14,7 +14,7 @@ export default function Footer() {
         </p>
       </div>
       <div className='flex flex-col gap-8 text-left top-2'>
-        <h3 className='font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-[#5E63DE] to-[#A22CFF]'>
+        <h3 className='font-bold text-2xl text-black'>
           Solution
         </h3>
         <Link
@@ -33,11 +33,11 @@ export default function Footer() {
           href='#'
           className='text-gray-500 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#5E63DE] hover:to-[#A22CFF]'
         >
-          Content management system
+          Notion as CMS
         </Link>
       </div>
       <div className='flex flex-col gap-8 text-left top-2'>
-        <h3 className='font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-[#5E63DE] to-[#A22CFF]'>
+        <h3 className='font-bold text-2xl text-black'>
           Enterprise
         </h3>
         <Link

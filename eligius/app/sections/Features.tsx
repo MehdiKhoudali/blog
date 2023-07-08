@@ -35,10 +35,10 @@ export default function Features() {
             </div>
             <div className="my-8 flex flex-col md:flex-row justify-center md:justify-between items-center w-full gap-8">
                 <div className="w-full md:w-[50%] flex text-left flex-col gap-5 md:px-8">
-                    <h3 className="text-gray-800 font-bold text-4xl">Write on our platform</h3>
-                    <p className="text-gray-600 font-regular text-lg">Create blog pages directly on our platform, manage your articles, think, write, imagine & publish an SEO optimised article in seconds</p>
+                    <h3 className="text-gray-800 font-bold text-4xl">Notion to blog</h3>
+                    <p className="text-gray-600 font-regular text-lg">Write articles directly on your Notion, manage your articles, think, write, imagine & publish an SEO optimised article on your landing in seconds.</p>
                     <ul className="flex flex-col gap-4">
-                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}A content management system</li>
+                        <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Notion as content management system</li>
                         <li className="flex gap-2 items-center font-medium text-gray-700">{Check}SEO optimisation</li>
                         <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Analytics and tracking tool</li>
                     </ul>
