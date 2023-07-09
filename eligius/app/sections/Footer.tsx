@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className='flex flex-col justify-center w-full gap-4 px-4 py-4 pt-24 pb-8 text-center bg-white md:px-16 lg:py-16 md:justify-between xl:flex-row'>
       <div className='flex flex-col gap-8 text-left top-2'>
-        <h2 className='text-2xl text-black'>ELIGIUS</h2>
+        <h2 className='text-2xl text-black font-bold'>ELIGIUS</h2>
         <p className='text-gray-500'>
           Your content creator's landing page
           <br />
@@ -60,7 +60,7 @@ export default function Footer() {
         </Link>
       </div>
       <div className='flex flex-col gap-8 text-left'>
-        <h3 className='text-2xl text-black'>Ready to scale?</h3>
+        <h3 className='text-2xl text-black font-bold'>Ready to scale?</h3>
         <p className='text-gray-500'>
           Join ELIGIUS, Build & scale your <br /> content creator's
           landing page <br />
