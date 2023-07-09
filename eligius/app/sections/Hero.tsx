@@ -9,7 +9,7 @@ export default function Hero() {
           className='mb-4 w-full lg:w-[50%] lg:h-[70vh] justify-center flex flex-col gap-4 lg:gap-8 font-bold'
           id='hero_big_text'
         >
-          <h3 className='leading-[3.5rem] text-gray-700 text-transparent text-[#14b8a6] text-4xl md:text-[50px]'>
+          <h3 className='leading-[3.5rem] text-gray-700 text-[#14b8a6] text-4xl md:text-[50px]'>
             Your content creator
           </h3>
           <h3 className='text-4xl md:text-[50px] text-black'>
