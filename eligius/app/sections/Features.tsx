@@ -4,7 +4,7 @@ import JoinWaitlist from '../components/JoinWaitlist'
 export default function Features() {
     const Check = <svg className="h-8 p-2 bg-gray-300 rounded-full w-8 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M4 13L9 18L20 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
     return (
-        <section id="features" className="flex text-center p-4 md:p-8 md:text-left items-center flex-col gap-8">
+        <section id="features" className="dark:bg-white flex text-center p-4 md:p-8 md:text-left items-center flex-col gap-8">
             <h2 className="font-bold text-4xl text-center md:text-6xl text-gray-800">An easy tool for all content creators</h2>
             <h3 className="md:text-xl text-center text-gray-500">Supercharge your content creator profile, create in seconds your landing page, present yourself, present your work, your services, collect emails of your visitors.</h3>
             <div className="my-8 flex flex-col md:flex-row justify-center md:justify-between items-center w-full gap-8">
