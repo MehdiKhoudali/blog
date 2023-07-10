@@ -12,7 +12,7 @@ export default function UseCases() {
     const [toggleOption, setToggleOption] = useState(TOOGLE_OPTIONS.LEADS_GENERATION);
 
     return (
-        <div id="usecases" className="px-4 md:px-16 min-h-[100vh] text-center">
+        <div id="usecases" className="h-[50vh] py-8 px-4 md:px-16 min-h-[100vh] text-center">
             <h1 className="font-bold text-4xl md:text-[50px] pb-4">Get running with ELIGIUS</h1>
             <p className="font-semibold text-[20px] dark:text-[#7A7A7A]">Here are the different usecases</p>
             <div className="md:flex md:justify-center w-full items-center pt-4 md:mt-8">
