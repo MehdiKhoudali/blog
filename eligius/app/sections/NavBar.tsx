@@ -36,12 +36,7 @@ export default function Navbar({ areButtonsHidden = false }) {
       <nav className='flex items-center flex-col gap-4 px-4 py-4 bg-white md:hidden'>
         <div className='flex justify-between items-center w-full'>
           <h2>ELIGIUS</h2>
-          <button
-            className='px-4 py-2 text-gray-500 bg-gray-400 rounded-md'
-            onClick={handleMenuToggle}
-          >
-            Menu
-          </button>
+          <button className='block' onClick={handleMenuToggle}><FaBars /></button>
         </div>
         <div
           className={

@@ -29,12 +29,6 @@ export default function Footer() {
         >
           Data forms
         </Link>
-        <Link
-          href='#'
-          className='text-gray-500 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#5E63DE] hover:to-[#A22CFF]'
-        >
-          Notion as CMS
-        </Link>
       </div>
       <div className='flex flex-col gap-8 text-left top-2'>
         <h3 className='font-bold text-2xl text-black'>
@@ -62,8 +56,7 @@ export default function Footer() {
       <div className='flex flex-col gap-8 text-left'>
         <h3 className='text-2xl text-black font-bold'>Ready to scale?</h3>
         <p className='text-gray-500'>
-          Join ELIGIUS, Build & scale your <br /> content creator's
-          landing page <br />
+          Join ELIGIUS, validate your SaaS and startups <br /> idea in seconds 🚀 
         </p>
         <JoinWaitlist />
       </div>
