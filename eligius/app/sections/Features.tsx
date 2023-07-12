@@ -6,11 +6,11 @@ export default function Features() {
     return (
         <section id="features" className="dark:bg-white flex text-center p-4 md:p-8 md:text-left items-center flex-col gap-8">
             <h2 className="font-bold text-4xl text-center md:text-6xl text-gray-800">An easy tool for all <span className='text-[#22c55e]'>indie hackers</span></h2>
-            <h3 className="md:text-xl text-center text-gray-500">Idea validation is a framework, you will have to move trought network validation, waitlist validation and pre-sales validation, this tool helps you easily do all of that.</h3>
+            <h3 className="md:text-xl text-center text-gray-500">Validate your idea with a proven framework. This tool guides you through network, waitlist and pre-sales validation with ease.</h3>
             <div className="my-8 flex flex-col md:flex-row justify-center md:justify-between items-center w-full gap-8">
                 <div className="w-full md:w-[50%] flex text-left flex-col gap-5 md:px-8">
                     <h3 className="text-gray-800 font-bold text-4xl">Drag & Drop interface</h3>
-                    <p className="text-gray-600 font-regular text-lg">Drag & drop pre-made sections, present your product, you idea, your solutions, the problem you're solving, all of that directly from a modern drag and drop interface with modern templates.</p>
+                    <p className="text-gray-600 font-regular text-lg">Create stunning websites with pre-made sections. Showcase your product, idea, solutions and problem in a modern drag and drop interface with sleek templates.</p>
                     <ul className="flex flex-col gap-4">
                         <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Drag & drop</li>
                         <li className="flex gap-2 items-center font-medium text-gray-700">{Check}Pre-made sections & templates</li>

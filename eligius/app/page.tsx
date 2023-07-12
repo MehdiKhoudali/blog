@@ -16,6 +16,7 @@ export default function Home() {
         <Hero />
         <Features />
         <Cta />
+        <UseCases />
         <Footer />
       </main>
     </>
